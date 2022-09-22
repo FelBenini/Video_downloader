@@ -135,7 +135,7 @@ if (isset($_POST['submit'])){
                 <tr>
                         <td>Video .MP4
                         </td>
-                        <td><a href="VideoDownloader.php?link=<?php echo urlencode($url)?>&title=<?php echo urlencode($video_title)?>&type=<?php echo "avi";?>"
+                        <td><a href="VideoDownloader.php?link=<?php echo urlencode($url)?>&title=<?php echo urlencode($video_title)?>&type=<?php echo "mp4";?>"
                                 class="download_button">Download</a></td>
                 </tr>
 
